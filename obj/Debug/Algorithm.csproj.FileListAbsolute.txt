@@ -1,0 +1,28 @@
+C:\Users\Admin\Desktop\bridgelabs\Functional\Algorithm\Algorithm\Algorithm\obj\Debug\Algorithm.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\bridgelabs\Functional\Algorithm\Algorithm\Algorithm\obj\Debug\Algorithm.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\bridgelabs\Functional\Algorithm\Algorithm\Algorithm\bin\Debug\Algorithm.exe.config
+C:\Users\Admin\Desktop\bridgelabs\Functional\Algorithm\Algorithm\Algorithm\bin\Debug\Algorithm.exe
+C:\Users\Admin\Desktop\bridgelabs\Functional\Algorithm\Algorithm\Algorithm\bin\Debug\Algorithm.pdb
+C:\Users\Admin\Desktop\bridgelabs\Functional\Algorithm\Algorithm\Algorithm\obj\Debug\Algorithm.exe
+C:\Users\Admin\Desktop\bridgelabs\Functional\Algorithm\Algorithm\Algorithm\obj\Debug\Algorithm.pdb
+C:\Users\Admin\Desktop\bridgelabs\Algorithm\Algorithm\Algorithm\bin\Debug\Algorithm.exe.config
+C:\Users\Admin\Desktop\bridgelabs\Algorithm\Algorithm\Algorithm\bin\Debug\Algorithm.exe
+C:\Users\Admin\Desktop\bridgelabs\Algorithm\Algorithm\Algorithm\bin\Debug\Algorithm.pdb
+C:\Users\Admin\Desktop\bridgelabs\Algorithm\Algorithm\Algorithm\obj\Debug\Algorithm.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\bridgelabs\Algorithm\Algorithm\Algorithm\obj\Debug\Algorithm.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\bridgelabs\Algorithm\Algorithm\Algorithm\obj\Debug\Algorithm.exe
+C:\Users\Admin\Desktop\bridgelabs\Algorithm\Algorithm\Algorithm\obj\Debug\Algorithm.pdb
+C:\Users\Admin\Desktop\bridgelabs\Algorithm\Algorithm\bin\Debug\Algorithm.exe.config
+C:\Users\Admin\Desktop\bridgelabs\Algorithm\Algorithm\bin\Debug\Algorithm.exe
+C:\Users\Admin\Desktop\bridgelabs\Algorithm\Algorithm\bin\Debug\Algorithm.pdb
+C:\Users\Admin\Desktop\bridgelabs\Algorithm\Algorithm\obj\Debug\Algorithm.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\bridgelabs\Algorithm\Algorithm\obj\Debug\Algorithm.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\bridgelabs\Algorithm\Algorithm\obj\Debug\Algorithm.exe
+C:\Users\Admin\Desktop\bridgelabs\Algorithm\Algorithm\obj\Debug\Algorithm.pdb
+C:\Users\Admin\Desktop\New folder\Algorithm\Algorithm\bin\Debug\Algorithm.exe.config
+C:\Users\Admin\Desktop\New folder\Algorithm\Algorithm\bin\Debug\Algorithm.exe
+C:\Users\Admin\Desktop\New folder\Algorithm\Algorithm\bin\Debug\Algorithm.pdb
+C:\Users\Admin\Desktop\New folder\Algorithm\Algorithm\obj\Debug\Algorithm.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\New folder\Algorithm\Algorithm\obj\Debug\Algorithm.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\New folder\Algorithm\Algorithm\obj\Debug\Algorithm.exe
+C:\Users\Admin\Desktop\New folder\Algorithm\Algorithm\obj\Debug\Algorithm.pdb
