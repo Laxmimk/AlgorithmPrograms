@@ -44,6 +44,7 @@ namespace Algorithm
                     Console.WriteLine("Enter 14 For Insertion sort of strings");
                     Console.WriteLine("Enter 15 For Bubble sort of integers");
                     Console.WriteLine("Enter 16 For Bubble sort of strings");
+                    Console.WriteLine("Enter 17 For Anagram and palindrome of prime numbers");
                     int num = Convert.ToInt32(Console.ReadLine());
 
                     switch (num)
@@ -186,6 +187,12 @@ namespace Algorithm
                             }
 
                             Utility.BubbleSort(strBub);
+                            break;
+
+                        case 17:
+                          AnagramAndPalindrome Ap = new AnagramAndPalindrome();
+                           Ap.PalindromeOfPrimeNumbers();
+                           Ap.AnagramOfPrimeNumbers();
                             break;
                     }
                 }

@@ -105,6 +105,8 @@ namespace Algorithm
             }
             }
 
+
+
         /// <summary>
         /// converting an integer to string
         /// </summary>
@@ -134,6 +136,65 @@ namespace Algorithm
 
                 return true;
             }
+
+        public ArrayList ListOfPrimeNumbers()
+        {
+            Console.WriteLine("enter range ");
+            int range = Getinteger();
+            ArrayList storePrimeNumbers = new ArrayList();
+            ////this loop is used for taking the numbes from 1 to given range
+            for (int i = 1; i <= range; i++)
+            {
+                int count = 0;
+                ////this loop is used for dividing the i by the j up to given range
+                for (int j = 1; j <= range; j++)
+                {
+                    if ((i % j) == 0)
+                    {
+                        count++;
+                    }
+                }
+
+                if (count == 2)
+                {
+                    storePrimeNumbers.Add(i);
+                }
+            }
+
+            return storePrimeNumbers;
+        }
+
+        /// <summary>
+        /// a method to find the day of a week
+        /// </summary>
+        /// <param name="d">The d.</param>
+        /// <param name="m">The m.</param>
+        /// <param name="y">The y.</param>
+        public void DaysOfAWeek(int d, int m, int y)
+        {
+            string[] days = { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
+            int y0 = (y - (14 - m)) / 12;
+            int x = y0 + (y0 / 4) - (y0 / 100) + (y0 / 400);
+            int m0 = (m + 12) * (((14 - m) / 12) - 2);
+            int d0 = (d + x + (31 * m0 / 12)) % 7;
+            Console.WriteLine("the day of the week is " + days[d0]);
+            Console.ReadLine();
+        }
+
+        /// <summary>
+        /// A method to calculate a monthly payment
+        /// </summary>
+        /// <param name="years">The years.</param>
+        /// <param name="rate">The rate.</param>
+        /// <param name="principle">The principle.</param>
+        public void Monthlypayment(double years, double rate, int principle)
+        {
+            double n = 12 * years;
+            double r = rate / (12 * 100);
+            double payment = (principle * r) / (1 - Math.Pow(1 + r, -n));
+            Console.WriteLine("the monthly payment is " + payment);
+            Console.ReadLine();
+        }
 
         /// <summary>
         /// Binaries the search.
