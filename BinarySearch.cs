@@ -9,8 +9,15 @@ namespace Algorithm
     using System;
     using System.IO;
 
+    /// <summary>
+    /// class for binary search, to search a word in a given file
+    /// </summary>
     public class BinarySearch
     {
+        /// <summary>
+        /// a method to read a file
+        /// </summary>
+        /// <returns>returns a string array</returns>
         public string[] ReadFile()
         {
             string[] st = new string[10];
