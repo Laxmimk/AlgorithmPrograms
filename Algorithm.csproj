@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Anagram.cs" />
     <Compile Include="AnagramAndPalindrome.cs" />
+    <Compile Include="BinarySearch.cs" />
     <Compile Include="BubbleSort.cs" />
     <Compile Include="DecimaltoBinary.cs" />
     <Compile Include="InsertionSort.cs" />

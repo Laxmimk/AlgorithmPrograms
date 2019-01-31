@@ -45,6 +45,7 @@ namespace Algorithm
                     Console.WriteLine("Enter 15 For Bubble sort of integers");
                     Console.WriteLine("Enter 16 For Bubble sort of strings");
                     Console.WriteLine("Enter 17 For Anagram and palindrome of prime numbers");
+                    Console.WriteLine("Enter 18 For Binary search");
                     int num = Convert.ToInt32(Console.ReadLine());
 
                     switch (num)
@@ -193,6 +194,16 @@ namespace Algorithm
                           AnagramAndPalindrome Ap = new AnagramAndPalindrome();
                            Ap.PalindromeOfPrimeNumbers();
                            Ap.AnagramOfPrimeNumbers();
+                            break;
+
+                        case 18:
+                            BinarySearch binarysearch = new BinarySearch();
+                            binarysearch.ReadFile();
+                            break;
+
+                        default:
+                            Console.WriteLine("Please enter the valid input");
+                            Console.ReadLine();
                             break;
                     }
                 }
