@@ -44,10 +44,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BankCashCounter.cs" />
+    <Compile Include="BinarySearch.cs" />
+    <Compile Include="CalendarStack.cs" />
+    <Compile Include="CalendarUsingQueue.cs" />
+    <Compile Include="Calender.cs" />
+    <Compile Include="DNode.cs" />
+    <Compile Include="DoublyLinkedList.cs" />
+    <Compile Include="Hashtablefunc.cs" />
     <Compile Include="Mainclass.cs" />
     <Compile Include="OrderedList.cs" />
     <Compile Include="Palindrome.cs" />
     <Compile Include="Parantheses.cs" />
+    <Compile Include="PrimeAnagram.cs" />
+    <Compile Include="PrimeAnagramClass.cs" />
+    <Compile Include="PrimeAndAnagramQueue.cs" />
+    <Compile Include="PrimeAndAnagramStack1.cs" />
+    <Compile Include="PrimeNumbersAndAnagram.cs" />
+    <Compile Include="PrimeNumbersin2D.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnorderedList.cs" />
     <Compile Include="Utility.cs" />

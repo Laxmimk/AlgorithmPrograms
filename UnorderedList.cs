@@ -33,7 +33,6 @@ namespace DataStructures
                     while ((s = sr.ReadLine()) != null)
                     {
                         list.AddFirst(s);
-                        ////Console.WriteLine(s);
                     }
                 }
 
@@ -61,7 +60,6 @@ namespace DataStructures
                 }
 
                 string joinedData = string.Join(" ", list);
-                ////Console.WriteLine("New updated File is:");
                 for (int i = 0; i < list.Count; i++)
                 {
                     ////streamwriter class will write the data inside the file

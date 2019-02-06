@@ -25,24 +25,30 @@ namespace DataStructures
                 Stack stack = new Stack();
                 Console.WriteLine("Enter the expression");
                 string expr = Console.ReadLine();
-                for (int index = 0; index < expr.Length; index++)
+                foreach(char c in expr)
                 {
-                    if (expr[index] == '(')
+                    switch(c)
                     {
-                        stack.Push(expr[index]);
+                        case '(':
+                            stack.Push(c);
+                            break;
+                        case ')':
+                            stack.Pop();
+                            break;
+                        case '{':
+                            stack.Push(c);
+                            break;
+                        case '}':
+                            stack.Pop();
+                            break;
+                        case '[':
+                            stack.Push(c);
+                            break;
+                        case ']':
+                            stack.Pop();
+                            break;
                     }
-                    else if (expr[index] == ')')
-                    {
-                        if (stack.Count == 0)
-                        {
-                            Console.WriteLine("Expression is unbalanced");
-                            Console.ReadLine();
-                        }
-
-                        stack.Pop();
-                    }
-                }
-
+                }                                                                
                 if (stack.Count == 0)
                 {
                     Console.WriteLine("The expression is balanced");

@@ -36,6 +36,14 @@ namespace DataStructures
                     Console.WriteLine("Enter 3 for balanced parantheses");
                     Console.WriteLine("Enter 4 for bank cash counter");
                     Console.WriteLine("Enter 5 for Palindrome");
+                    Console.WriteLine("Enter 6 for Calendar using queue");
+                    Console.WriteLine("Enter 7 for binary search tree");
+                    Console.WriteLine("Enter 8 for Prime numbers in 2D array");
+                    Console.WriteLine("Enter 9 for Prime numbers that are anagram");
+                    Console.WriteLine("Enter 10 for Hash table function");
+                    Console.WriteLine("Enter 11 for prime numbers and anagrams using stack");
+                    Console.WriteLine("Enter 12 for calendar using stack");
+                    Console.WriteLine("Enter 13 for prime and anagram using queue");
                     Console.WriteLine("Enter the question number to get the output");
                     
                     int choice = Convert.ToInt32(Console.ReadLine());
@@ -61,6 +69,38 @@ namespace DataStructures
                         case 5:
                             Palindrome pd = new Palindrome();
                             pd.PalindromeChecker();
+                            break;
+                        case 6:
+                            CalendarUsingQueue cq = new CalendarUsingQueue();
+                            cq.CalenderLinkedlistDemo();
+                            break;
+                        case 7:
+                            BinarySearch bs = new BinarySearch();
+                            bs.BinarySearchTree();
+                            break;
+                        case 8:
+                            PrimeNumbersin2D pn = new PrimeNumbersin2D();
+                            pn.Primenumbers();
+                            break;
+                        case 9:
+                            PrimeNumbersAndAnagram pna = new PrimeNumbersAndAnagram();
+                            pna.PrimeNumbersAndAnagramNumbers();
+                            break;
+                        case 10:
+                            Hashtablefunc hf = new Hashtablefunc();
+                            hf.HashfunctionToSearchANumber();
+                            break;
+                        case 11:
+                            PrimeAndAnagramStack pas = new PrimeAndAnagramStack();
+                            pas.PrimeAndAnagramNumbers();
+                            break;
+                        case 12:
+                            CalendarStack cs = new CalendarStack();
+                            cs.CalenderStackDemo();
+                            break;
+                        case 13:
+                            PrimeAndAnagramQueue pq = new PrimeAndAnagramQueue();
+                            pq.PrimeAndAnagramNumbers();
                             break;
                         default:
                             Console.WriteLine("Provide Data in Range");

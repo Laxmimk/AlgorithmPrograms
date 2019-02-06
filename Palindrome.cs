@@ -20,48 +20,55 @@ namespace DataStructures
         /// </summary>
         public void PalindromeChecker()
         {
-            //// 1st queue object creation 
-            Queue queue1 = new Queue();
-            //// 2nd queue object creation
-            Queue queue2 = new Queue();
-            Console.WriteLine("Enter the string");
-            string str = Console.ReadLine();
-            if (str.Contains(" "))
+            try
             {
-                Console.WriteLine("Enter the proper input");
-                Console.ReadLine();
-            }
-            else
-            {
-                int flag = 0;
-                //// converting the given string to character array
-                char[] c = str.ToCharArray();
-                for (int i = 0; i < c.Length; i++)
+                //// 1st queue object creation 
+                Queue queue1 = new Queue();
+                //// 2nd queue object creation
+                Queue queue2 = new Queue();
+                Console.WriteLine("Enter the string");
+                string str = Console.ReadLine();
+                if (str.Contains(" "))
                 {
-                    queue1.Enqueue(c[i]);
-                }
-
-                for (int j = c.Length - 1; j >= 0; j--)
-                {
-                    queue2.Enqueue(c[j]);
-                }
-
-                while ((queue1.Count != 0) && (queue2.Count != 0))
-                {
-                    if ((char)queue1.Dequeue() != (char)queue2.Dequeue())
-                    {
-                        flag++;
-                    }
-                }
-
-                if (flag > 0)
-                {
-                    Console.WriteLine(str + " is not a palindrome");
+                    Console.WriteLine("Enter the proper input");
+                    Console.ReadLine();
                 }
                 else
                 {
-                    Console.WriteLine(str + " is a palindrome");
+                    int flag = 0;
+                    //// converting the given string to character array
+                    char[] c = str.ToCharArray();
+                    for (int i = 0; i < c.Length; i++)
+                    {
+                        queue1.Enqueue(c[i]);
+                    }
+
+                    for (int j = c.Length - 1; j >= 0; j--)
+                    {
+                        queue2.Enqueue(c[j]);
+                    }
+
+                    while ((queue1.Count != 0) && (queue2.Count != 0))
+                    {
+                        if ((char)queue1.Dequeue() != (char)queue2.Dequeue())
+                        {
+                            flag++;
+                        }
+                    }
+
+                    if (flag > 0)
+                    {
+                        Console.WriteLine(str + " is not a palindrome");
+                    }
+                    else
+                    {
+                        Console.WriteLine(str + " is a palindrome");
+                    }
                 }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
             }
         }
     }

@@ -7,18 +7,23 @@
 namespace DataStructures
 {
     using System;
+    using System.Collections;
     using System.Collections.Generic;
+    using System.IO;
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
-    using System.IO;
-    using System.Collections;
-
+    
+    /// <summary>
+    /// Class for ordered list for searching a number
+    /// </summary>
     public class OrderedList
     {
+        /// <summary>
+        /// Method for arranging the numbers in ascending order taking inputs from the file
+        /// </summary>
         public void AscendingOrder()
-        {
-           
+        {          
             string path = @"Laxmi2.txt";
             StreamReader sr = new StreamReader(path);
             string read = sr.ReadLine();
@@ -37,11 +42,9 @@ namespace DataStructures
             foreach (int values in linkedList)
             {
                 Console.WriteLine(values + " ");
-             
             }
-            Console.WriteLine();
-           
 
+            Console.WriteLine();
             Console.WriteLine("Enter an item to search");
             int search = Utility.Getinteger();
             bool flag = false;
@@ -56,15 +59,14 @@ namespace DataStructures
                     break;
                 }
             }
-                if(flag == false)
+
+                if (flag == false)
                 {
                     Console.WriteLine(search + " is not in the list");
                     Console.WriteLine("So adding " + search + " in list");
                     linkedList.AddLast(search);
                 }
-            
 
-            //list.Sort();
             ilist = linkedList.OrderBy(c => c).ToList();
             linkedList.Clear();
             Console.WriteLine("Updated data of list is:");
@@ -73,13 +75,14 @@ namespace DataStructures
                 linkedList.AddLast(k);
                 Console.WriteLine(k + " ");
             }
+
             string result = string.Empty;
-            foreach(int a in linkedList)
+            foreach (int a in linkedList)
             {
                 result = result + a.ToString();
                 result = result + ' ';
-
             }
+
             result = result.Trim();
             Utility.FilePathfororderedlist();
         }
