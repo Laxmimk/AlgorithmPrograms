@@ -1,0 +1,24 @@
+{
+"stock":[
+{
+"name" : "BridgeLabz",
+"numberOfShares" : 6,
+"sharePrice" : 50
+},
+{
+"name" : "Wipro",
+"numberOfShares": 4,
+"sharePrice" : 45
+},
+{
+"name" : "Taxas",
+"numberOfShares": 8,
+"sharePrice" : 40
+},
+{
+"name" : "Infosys",
+"numberOfShares": 3,
+"sharePrice" : 65
+}
+]
+}

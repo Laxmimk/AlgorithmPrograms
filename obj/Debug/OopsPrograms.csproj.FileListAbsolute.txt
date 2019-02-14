@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\Oops\OopsPrograms\OopsPrograms\bin\Debug\OopsPrograms.exe.config
+C:\Users\Admin\Desktop\Oops\OopsPrograms\OopsPrograms\bin\Debug\OopsPrograms.exe
+C:\Users\Admin\Desktop\Oops\OopsPrograms\OopsPrograms\bin\Debug\OopsPrograms.pdb
+C:\Users\Admin\Desktop\Oops\OopsPrograms\OopsPrograms\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Oops\OopsPrograms\OopsPrograms\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Admin\Desktop\Oops\OopsPrograms\OopsPrograms\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\Oops\OopsPrograms\OopsPrograms\obj\Debug\OopsPrograms.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Oops\OopsPrograms\OopsPrograms\obj\Debug\OopsPrograms.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Oops\OopsPrograms\OopsPrograms\obj\Debug\OopsPrograms.csproj.CopyComplete
+C:\Users\Admin\Desktop\Oops\OopsPrograms\OopsPrograms\obj\Debug\OopsPrograms.exe
+C:\Users\Admin\Desktop\Oops\OopsPrograms\OopsPrograms\obj\Debug\OopsPrograms.pdb

@@ -1,0 +1,68 @@
+{
+  "rice": [
+    {
+      "name": "Basmati",
+      "weight": 10,
+      "price": 50
+    },
+    {
+      "name": "BrownRice",
+      "weight": 5,
+      "price": 55
+    },
+    {
+      "name": "WhiteRice",
+      "weight": 4,
+      "price": 40
+    },
+    {
+      "name": "ChampaRice",
+      "weight": 5,
+      "price": 30
+    }
+  ],
+  "pulses": [
+    {
+      "name": "Lupins",
+      "weight": 4,
+      "price": 45
+    },
+    {
+      "name": "ChickPeas",
+      "weight": 5,
+      "price": 50
+    },
+    {
+      "name": "Kidney Beans",
+      "weight": 7,
+      "price": 60
+    },
+    {
+      "name": "Black Eyed Beans",
+      "weight": 8,
+      "price": 90
+    }
+  ],
+  "wheat": [
+    {
+      "name": "Aashirvaad",
+      "weight": 5,
+      "price": 30
+    },
+    {
+      "name": "BuckWheat",
+      "weight": 3,
+      "price": 45
+    },
+    {
+      "name": "Organic",
+      "weight": 6,
+      "price": 60
+    },
+    {
+      "name": "Bread",
+      "weight": 2,
+      "price": 45
+    }
+  ]
+}
