@@ -32,7 +32,7 @@ namespace DesignPattern.DependencyInjection
         /// </summary>
         public void Print()
         {
-            text.Print();
+            this.text.Print();
         }
     }
 }

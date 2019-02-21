@@ -23,15 +23,21 @@ namespace DesignPattern.AdapterDesignPattern1
         public List<string> GetEmployeeList()
         {
             List<string> employeeList = new List<string>();
-            string[][] employees = GetEmployees();
-            foreach (string[] employee in employees)
+            try
             {
-                employeeList.Add(employee[0]);
-                employeeList.Add(employee[1]);
-                employeeList.Add(employee[2]);
-                employeeList.Add("\n");
+                string[][] employees = GetEmployees();
+                foreach (string[] employee in employees)
+                {
+                    employeeList.Add(employee[0]);
+                    employeeList.Add(employee[1]);
+                    employeeList.Add(employee[2]);
+                    employeeList.Add("\n");
+                }
             }
-
+             catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             return employeeList;
         }
     }

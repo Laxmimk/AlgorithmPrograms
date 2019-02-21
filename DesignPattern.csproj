@@ -54,6 +54,7 @@
     <Compile Include="DependencyInjection\Format.cs" />
     <Compile Include="DependencyInjection\PrintConstructor.cs" />
     <Compile Include="DependencyInjection\IText.cs" />
+    <Compile Include="EmployeeReflection.cs" />
     <Compile Include="FacadeDesignPattern\CarAccessories.cs" />
     <Compile Include="FacadeDesignPattern\CarBody.cs" />
     <Compile Include="FacadeDesignPattern\CarEngine.cs" />
@@ -85,11 +86,13 @@
     <Compile Include="ProxyDesignPattern\IMath.cs" />
     <Compile Include="ProxyDesignPattern\Math.cs" />
     <Compile Include="ProxyDesignPattern\MathProxy.cs" />
+    <Compile Include="ReflectionClass.cs" />
     <Compile Include="Reflection\Circle.cs" />
     <Compile Include="Reflection\IShape.cs" />
     <Compile Include="Reflection\PrintReflection.cs" />
     <Compile Include="Reflection\Rectangle.cs" />
     <Compile Include="Reflection\ShapeFactory.cs" />
+    <Compile Include="Singleton\RequiredAttribute.cs" />
     <Compile Include="Singleton\SingletonEx.cs" />
     <Compile Include="VisitorDesignPattern\Clerk.cs" />
     <Compile Include="VisitorDesignPattern\Director.cs" />

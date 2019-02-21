@@ -41,7 +41,10 @@ namespace DesignPattern.ObserverDesignPatternEx1
         /// </value>
         public double PricePerKg
         {
-            get { return this.pricePerKg; }
+            get
+            {
+                return this.pricePerKg;
+            }
             set
             {
                 if (this.pricePerKg != value)

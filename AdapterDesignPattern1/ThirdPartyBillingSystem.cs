@@ -39,7 +39,7 @@ namespace DesignPattern.AdapterDesignPattern1
             //// Storing the employees in yhe list
             List<string> employee = this.employeeSource.GetEmployeeList();
             Console.WriteLine("********** Employee List ***********");
-            foreach (var item in employee)
+            foreach (string item in employee)
             {
                 Console.WriteLine(item);
             }

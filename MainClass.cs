@@ -51,7 +51,7 @@ namespace DesignPattern
                     Console.WriteLine("Enter 9 for Visitor design pattern");
                     Console.WriteLine("Enter 10 for Mediator design pattern");
                     Console.WriteLine("Enter 11 for Dependency injection example");
-                    Console.WriteLine("Enter 12 for Factory design pattern using reflection");
+                    Console.WriteLine("Enter 12 for reflection");
                     Console.WriteLine("Enter the question number to get the output");
 
                     try
@@ -74,8 +74,8 @@ namespace DesignPattern
                             concreteVehicleFactory.PrintMethod();
                             break;
                         case 3:
-                            ITarget Itarget = new EmployeeAdapter();
-                            ThirdPartyBillingSystem client = new ThirdPartyBillingSystem(Itarget);
+                            ITarget itarget = new EmployeeAdapter();
+                            ThirdPartyBillingSystem client = new ThirdPartyBillingSystem(itarget);
                             client.ShowEmployeeList();
                             break;
                         case 4:
@@ -109,10 +109,10 @@ namespace DesignPattern
                         case 11:
                             PrintConstructor printConstructor = new PrintConstructor();
                             printConstructor.ConstructorPrint();
-                            break;
+                            break;                      
                         case 12:
-                            PrintReflection printReflection = new PrintReflection();
-                            printReflection.ReflectionDetails();
+                            ReflectionClass reflectionClass = new ReflectionClass();
+                            reflectionClass.Reflection();
                             break;
                         default:
                             Console.WriteLine(" ");
@@ -128,8 +128,6 @@ namespace DesignPattern
             {
                 Console.WriteLine(e.Message);
             }
-
-            Console.ReadLine();
         }
     }
 }

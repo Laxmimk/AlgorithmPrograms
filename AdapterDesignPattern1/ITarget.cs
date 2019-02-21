@@ -20,7 +20,7 @@ namespace DesignPattern.AdapterDesignPattern1
         /// <summary>
         /// Method to get the employee list
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Returns list of employee</returns>
         List<string> GetEmployeeList();
     }
 }
